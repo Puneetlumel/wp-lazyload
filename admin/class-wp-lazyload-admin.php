@@ -145,7 +145,7 @@ class Wp_Lazyload_Admin {
 	}
 
 	public function wp_lazyload_settings_page() {
-		add_options_page('Wp LazyLoad Settings', 'WP LazyLoad', 'administrator', 'wp-lazy-load-settings', array( $this, 'wp_lazy_load_settings' ) );
+		add_options_page('Wp LazyLoad Settings', 'WP LazyLoad', 'edit_posts', 'wp-lazy-load-settings', array( $this, 'wp_lazy_load_settings' ) );
 	}
 
 	public function wp_lazy_load_settings() { ?>

@@ -18,6 +18,7 @@ This is a WordPress plugin that can lazy load single videos/GIFs/iframes mainly 
 Key Features:
 * Lazy Load Shortcode for videos/GIFs/iframes
 * Shortcode Builder
+* This plugin is editable for all roles except subscriber
 
 
 ---
@@ -25,7 +26,7 @@ Key Features:
 ### Installation
 
 1. Upload `wp-lazyload-1.0.0.zip` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
 ---
 
